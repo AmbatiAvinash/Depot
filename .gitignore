@@ -13,6 +13,7 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
+<<<<<<< HEAD
 /tmp/*
 !/log/.keep
 !/tmp/.keep
@@ -29,3 +30,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+=======
+!/log/.keep
+/tmp
+>>>>>>> ef6cd019f989d730e099283b2760d587c693daa1
